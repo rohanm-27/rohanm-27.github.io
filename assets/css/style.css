@@ -1,0 +1,142 @@
+/* Always set the map height explicitly to define the size of the div
+       * element that contains the map. */
+#map, #gmap {
+    height: 500px;
+    width: 100%;
+    float: right;
+}
+
+#gdir {
+	float: left;
+	height: 459px;
+	overflow: auto;
+}
+
+#places {
+	height: 459px;
+	overflow: auto;
+}
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #cc66ff;
+}
+
+.nav-tabs>li {
+    margin-left: -5px;
+}
+
+.fa-action{
+	float: right;
+	font-size:18px;
+}
+
+.jumbo-style {
+	border-color: #33cc33;
+    border-style: double;
+    border-width: 15px;
+    border-radius: 30px;
+ 	background: #494949 url('../images/road.jpg');
+}
+
+.plan-trip {
+ 	background: #ffcccc;
+}
+
+.panel-default>.panel-heading {
+    background-image: none;
+    color: #fff;
+    background-color: #006600;
+    border-color: #9933ff;
+}
+
+.mod-flex {
+	margin-left: 100px;
+    margin-right: 100px;
+}
+
+.flex-box-hdr {
+	display: -webkit-flex;
+    display: flex;
+    height: 340px;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+}
+
+.logo {
+	border-radius: 30px;
+    height: 320px;
+}
+
+.hdrimg {
+	height: 80px;
+    -webkit-align-self: center;
+    align-self: center;	
+}
+
+#copy-target {
+    position: relative;
+    left: 80px;
+    top: -26px;
+    z-index: -100;
+}
+
+.modal-header {
+    color: #fff;
+    background-color: #2279bc;
+    border-color: #ddd;
+}
+
+.place-name {
+	font-weight: bold;
+    font-size: 15px;
+}
+
+.place-rating {
+	font-weight: bolder;
+}
+
+.add-route, .remove-route {
+	color: #2279bc;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+.fa-bed, .fa-cutlery, .fa-thermometer-full {
+	cursor: pointer;
+}
+
+.place-chip {
+    display: inline-block;
+	padding: 0px 20px;
+    height: 80px;
+    width: 100%;
+    line-height: 25px;
+    border-radius: 25px;
+    background-color: #f1f1f1;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.place-chip img {
+    float: left;
+	margin: 0px 10px 0 -20px;
+    height: 80px;
+    width: 80px;
+    border-radius: 20%;
+}
+
+.chip-name {
+	font-weight: bolder;
+    font-size: 16px;
+}
+
+.chip-rating {
+	font-weight: bold;
+    font-size: 14px;
+}
